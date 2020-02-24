@@ -1,17 +1,6 @@
 127.0.0.1	localhost wonderland
-127.0.1.1	sara-lenovo
+10.42.0.1 sara-lenovo
 
 # Ajouter les périphériques réseaux ici.
-192.168.0.177   saraweb
-192.168.0.241   raspberrypi
 192.168.1.200	  sara-ui
-192.168.0.252	  sara-jetson1
-
-10.42.1.199     ElCapitan
-
-# The following lines are desirable for IPv6 capable hosts
-::1     ip6-localhost ip6-loopback
-fe00::0 ip6-localnet
-ff00::0 ip6-mcastprefix
-ff02::1 ip6-allnodes
-ff02::2 ip6-allrouters
+10.42.0.100	    sara-jetson1
