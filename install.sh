@@ -6,6 +6,5 @@
 repositoryName="sara_hosts"
 installPath="/etc/hosts"
 
-cd ../src/sara_hosts/hosts
-sudo mv $installPath hosts.bak
-sudo ln -s $(pwd)/hosts /etc/hosts
+sudo mv "$installPath" "$installPath.bak"
+sudo ln -s $(rospack find sara_hosts)/hosts "$installPath"

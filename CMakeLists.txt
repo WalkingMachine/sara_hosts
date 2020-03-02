@@ -6,7 +6,7 @@ project(sara_hosts)
 
 # Install the host list
 execute_process (
-    COMMAND bash -c "../src/sara_hosts/install.sh"
+    COMMAND bash -c "$(rospack find sara_hosts)/install.sh"
 )
 
 ## Find catkin macros and libraries
