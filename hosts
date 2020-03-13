@@ -2,6 +2,7 @@
 127.0.0.1	      localhost
 
 # Sets the hostname in the network. Will depend on the current machine.
+127.0.0.1	    sara-jetson1
 
 # Ajouter les périphériques réseaux ici.
 10.42.0.1	      sara-lenovo wonderland
